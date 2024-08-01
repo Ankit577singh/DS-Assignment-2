@@ -2,9 +2,8 @@
 
 class RandomizedCollection {
 private:
-    map<int, vector<int>> a; // Maps value to list of indices in vector
-    vector<pair<int, int>> b;          // Stores elements with their indices in the map
-
+    map<int, vector<int>> a; 
+    vector<pair<int, int>> b;       
 public:
     RandomizedCollection() {
     }
